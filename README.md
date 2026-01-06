@@ -244,6 +244,7 @@ git clone https://github.com/charishma6/Chubb_Capstone.git
 
 ### 3️⃣ Run Airflow
 ```bash
+cd airflow-stock-project
 docker compose up
 ```
 
