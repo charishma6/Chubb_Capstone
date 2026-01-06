@@ -260,9 +260,11 @@ Trigger DAG: `stock_trading_etl_pipeline`
 * Refresh data
 * Explore dashboards
 
-🏁 Conclusion
+## 🏁 Conclusion
 
 This project demonstrates a production-style data analytics pipeline that transforms raw financial data into actionable insights using modern data engineering, orchestration, and visualization tools.
 
-Author:
+Thank you
+
+### Author:
 Charishma
