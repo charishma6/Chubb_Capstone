@@ -1,0 +1,31 @@
+[2026-01-05T21:40:13.480+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_trading_etl_pipeline.gold_layer scheduled__2026-01-04T00:00:00+00:00 [queued]>
+[2026-01-05T21:40:13.493+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_trading_etl_pipeline.gold_layer scheduled__2026-01-04T00:00:00+00:00 [queued]>
+[2026-01-05T21:40:13.495+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-01-05T21:40:13.515+0000] {taskinstance.py:2191} INFO - Executing <Task(DatabricksRunNowOperator): gold_layer> on 2026-01-04 00:00:00+00:00
+[2026-01-05T21:40:13.520+0000] {standard_task_runner.py:60} INFO - Started process 204 to run task
+[2026-01-05T21:40:13.525+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_trading_etl_pipeline', 'gold_layer', 'scheduled__2026-01-04T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/stock_trading_etl_pipeline.py', '--cfg-path', '/tmp/tmp3h0zj57z']
+[2026-01-05T21:40:13.529+0000] {standard_task_runner.py:88} INFO - Job 7: Subtask gold_layer
+[2026-01-05T21:40:13.612+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_trading_etl_pipeline.gold_layer scheduled__2026-01-04T00:00:00+00:00 [running]> on host c0c900311e4b
+[2026-01-05T21:40:13.699+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock_trading_etl_pipeline' AIRFLOW_CTX_TASK_ID='gold_layer' AIRFLOW_CTX_EXECUTION_DATE='2026-01-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-04T00:00:00+00:00'
+[2026-01-05T21:40:13.710+0000] {base.py:83} INFO - Using connection ID 'databricks_default' for task execution.
+[2026-01-05T21:40:13.713+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2026-01-05T21:40:15.170+0000] {databricks.py:66} INFO - Run submitted with run_id: 727039555164522
+[2026-01-05T21:40:15.171+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2026-01-05T21:40:16.255+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2026-01-05T21:40:17.465+0000] {databricks.py:128} INFO - gold_layer in run state: {'life_cycle_state': 'RUNNING', 'result_state': '', 'state_message': ''}
+[2026-01-05T21:40:17.467+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-10aef91b-b57e.cloud.databricks.com/?o=1513158629236595#job/314206834450668/run/727039555164522
+[2026-01-05T21:40:17.469+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2026-01-05T21:40:47.487+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2026-01-05T21:40:48.609+0000] {databricks.py:128} INFO - gold_layer in run state: {'life_cycle_state': 'RUNNING', 'result_state': '', 'state_message': ''}
+[2026-01-05T21:40:48.611+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-10aef91b-b57e.cloud.databricks.com/?o=1513158629236595#job/314206834450668/run/727039555164522
+[2026-01-05T21:40:48.611+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2026-01-05T21:41:18.641+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2026-01-05T21:41:19.842+0000] {databricks.py:128} INFO - gold_layer in run state: {'life_cycle_state': 'RUNNING', 'result_state': '', 'state_message': ''}
+[2026-01-05T21:41:19.843+0000] {databricks.py:129} INFO - View run status, Spark UI, and logs at https://dbc-10aef91b-b57e.cloud.databricks.com/?o=1513158629236595#job/314206834450668/run/727039555164522
+[2026-01-05T21:41:19.844+0000] {databricks.py:130} INFO - Sleeping for 30 seconds.
+[2026-01-05T21:41:49.857+0000] {databricks_base.py:461} INFO - Using token auth. For security reasons, please set token in Password field instead of extra
+[2026-01-05T21:41:50.906+0000] {databricks.py:77} INFO - gold_layer completed successfully.
+[2026-01-05T21:41:50.907+0000] {databricks.py:78} INFO - View run status, Spark UI, and logs at https://dbc-10aef91b-b57e.cloud.databricks.com/?o=1513158629236595#job/314206834450668/run/727039555164522
+[2026-01-05T21:41:50.922+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=stock_trading_etl_pipeline, task_id=gold_layer, execution_date=20260104T000000, start_date=20260105T214013, end_date=20260105T214150
+[2026-01-05T21:41:50.943+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-05T21:41:50.956+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

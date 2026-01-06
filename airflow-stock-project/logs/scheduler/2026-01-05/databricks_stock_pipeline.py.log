@@ -1,0 +1,14 @@
+[2026-01-05T21:34:13.237+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/databricks_stock_pipeline.py
+[2026-01-05T21:34:13.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/databricks_stock_pipeline.py for tasks to queue
+[2026-01-05T21:34:13.241+0000] {logging_mixin.py:188} INFO - [2026-01-05T21:34:13.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/databricks_stock_pipeline.py
+[2026-01-05T21:34:13.284+0000] {processor.py:840} INFO - DAG(s) 'stock_trading_etl_pipeline' retrieved from /opt/airflow/dags/databricks_stock_pipeline.py
+[2026-01-05T21:34:13.308+0000] {logging_mixin.py:188} INFO - [2026-01-05T21:34:13.307+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-05T21:34:13.352+0000] {logging_mixin.py:188} INFO - [2026-01-05T21:34:13.351+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_trading_etl_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-05 00:00:00+00:00
+[2026-01-05T21:34:13.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/databricks_stock_pipeline.py took 0.159 seconds
+[2026-01-05T21:34:43.566+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/databricks_stock_pipeline.py
+[2026-01-05T21:34:43.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/databricks_stock_pipeline.py for tasks to queue
+[2026-01-05T21:34:43.570+0000] {logging_mixin.py:188} INFO - [2026-01-05T21:34:43.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/databricks_stock_pipeline.py
+[2026-01-05T21:34:43.621+0000] {processor.py:840} INFO - DAG(s) 'stock_trading_etl_pipeline' retrieved from /opt/airflow/dags/databricks_stock_pipeline.py
+[2026-01-05T21:34:43.750+0000] {logging_mixin.py:188} INFO - [2026-01-05T21:34:43.749+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-05T21:34:43.768+0000] {logging_mixin.py:188} INFO - [2026-01-05T21:34:43.768+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_trading_etl_pipeline to 2026-01-04 00:00:00+00:00, run_after=2026-01-05 00:00:00+00:00
+[2026-01-05T21:34:43.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/databricks_stock_pipeline.py took 0.230 seconds
