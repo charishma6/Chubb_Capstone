@@ -30,8 +30,7 @@ This project addresses those challenges by building a centralized analytics syst
 ## 🏗️ End-to-End Architecture
 
 ### Data Flow
-![alt text](image.png)
-
+![alt text](image-1.png)
 
 ### Workflow Orchestration
 
