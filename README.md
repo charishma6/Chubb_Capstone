@@ -30,7 +30,21 @@ This project addresses those challenges by building a centralized analytics syst
 ## 🏗️ End-to-End Architecture
 
 ### Data Flow
-![alt text](image-1.png)
+
+```
+Raw Dataset (CSV)
+        ↓
+Bronze Layer – Raw ingestion (Databricks)
+        ↓
+Silver Layer – Cleaning & standardization
+        ↓
+Gold Layer – Analytics & KPIs
+        ↓
+Power BI Dashboards
+        ↓
+Airflow – Orchestrates the entire pipeline
+```
+
 
 ### Workflow Orchestration
 
