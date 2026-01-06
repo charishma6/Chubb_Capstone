@@ -254,7 +254,7 @@ Access UI:
 
 Trigger DAG: `stock_trading_etl_pipeline`
 
-4️⃣ Power BI
+### 4️⃣ Power BI
 
 * Open `Stock Trading & Investment Performance Analytics System.pbix`
 * Refresh data
