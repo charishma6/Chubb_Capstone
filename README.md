@@ -249,7 +249,8 @@ docker compose up
 ```
 
 
-Access UI: 👉 [http://localhost:8080]
+Access UI: 
+👉 [http://localhost:8080](http://localhost:8080)
 
 Trigger DAG: `stock_trading_etl_pipeline`
 
